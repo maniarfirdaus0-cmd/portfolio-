@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Farman</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">FARMAN</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button id="mobile-toggle-4" class="mobile-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container portfolio-page">
+    <h1>Selected Projects</h1>
+    <p>Here are a few projects combining web development, AI, and teaching material.</p>
+
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="video">Video</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Example project cards -->
+      <article class="project-card" data-cat="web">
+        <h3>College Portal (React)</h3>
+        <p>Front-end React app for course management. Tech: React, CSS Grid.</p>
+      </article>
+      <article class="project-card" data-cat="ai">
+        <h3>AI Chat Helper</h3>
+        <p>Python backend + NLP integration for Q&A and summarization tasks.</p>
+      </article>
+      <article class="project-card" data-cat="video">
+        <h3>YouTube Lecture Series</h3>
+        <p>Series of short lectures on C, Python and Data Structures. Edited and published.</p>
+      </article>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>FARMAN</h3>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>maniarfirdaus0@gmail.com</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
